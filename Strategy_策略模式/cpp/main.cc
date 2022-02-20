@@ -5,7 +5,7 @@
 #include <cctype>
 
 /*
-- Strategy 接口声明了完成相同任务的不同算法的同一接口 DoAlgorithm
+- Strategy 接口声明了完成相同任务的不同算法的统一接口 DoAlgorithm
 - Context 通过该接口调用具体策略定义的算法
 */
 class Strategy {
